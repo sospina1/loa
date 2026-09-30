@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eliminar tu cuenta — LOA</title>
+<style>
+  :root {
+    --fondo: #faf9f7;
+    --texto: #1c1b19;
+    --suave: #5c5a55;
+    --linea: #e3e0da;
+    --acento: #6b5b95;
+    --aviso-fondo: #fdf6e3;
+    --aviso-linea: #e0c97f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fondo: #15181c;
+      --texto: #e8e6e3;
+      --suave: #a8a49d;
+      --linea: #2d3138;
+      --acento: #b4a3e0;
+      --aviso-fondo: #23201a;
+      --aviso-linea: #6b5c2e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--texto);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 16px 5rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .5rem; }
+  h2 {
+    font-size: 1.2rem; margin: 2.5rem 0 .75rem;
+    padding-top: 1.5rem; border-top: 1px solid var(--linea);
+  }
+  .fecha { color: var(--suave); font-size: .9rem; margin: 0 0 2rem; }
+  ul, ol { padding-left: 1.3rem; }
+  li { margin: .45rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .95rem; }
+  th, td { text-align: left; padding: .6rem .5rem; border-bottom: 1px solid var(--linea); vertical-align: top; }
+  th { font-weight: 600; }
+  a { color: var(--acento); }
+  code { font-size: .92em; }
+  .aviso {
+    background: var(--aviso-fondo);
+    border: 1px solid var(--aviso-linea);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+    margin: 1.5rem 0;
+  }
+  .aviso p:first-child { margin-top: 0; }
+  .aviso p:last-child { margin-bottom: 0; }
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--linea); color: var(--suave); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Eliminar tu cuenta y tus datos</h1>
+<p class="fecha">
+  Aplicación: <strong>LOA — Compañero emocional</strong>
+  (<code>com.sospina.aicompanion</code>)<br>
+  Desarrollador: <strong>Sebastián Ospina</strong><br>
+  Última actualización: 30 de septiembre de 2026
+</p>
+
+<p>Puedes borrar todo lo que LOA guarda sobre ti cuando quieras, sin dar
+explicaciones y sin escribirle a nadie. Esta página explica cómo, y qué
+se borra exactamente.</p>
+
+<h2>1. Desde la app (la forma recomendada)</h2>
+
+<ol>
+  <li>Abre <strong>LOA</strong></li>
+  <li>Ve a <strong>Ajustes</strong></li>
+  <li>Baja hasta la sección <strong>Datos</strong></li>
+  <li>Toca <strong>Borrar todos mis datos</strong></li>
+  <li>Confirma. La app pide confirmación dos veces, a propósito: esto no
+      se puede deshacer</li>
+</ol>
+
+<p>El borrado es inmediato y se hace en los dos sitios: lo guardado en el
+teléfono y lo guardado en la nube.</p>
+
+<h2>2. Si ya desinstalaste la app</h2>
+
+<p><strong>Si conectaste tu cuenta de Google en LOA:</strong> escribe
+desde esa misma dirección a
+<a href="mailto:sospinagaviria@gmail.com">sospinagaviria@gmail.com</a>
+con el asunto <em>"Eliminar mis datos"</em>. Se borra todo en un plazo
+máximo de 30 días, normalmente en menos de 7.</p>
+
+<p><strong>Si nunca conectaste una cuenta de Google:</strong> tus datos
+están guardados bajo un identificador aleatorio que no está asociado a
+tu correo, ni a tu nombre, ni a tu teléfono. No hay forma de saber
+cuáles son tuyos, porque nunca se guardó nada que te identifique.</p>
+
+<div class="aviso">
+<p>Por eso, si usas LOA sin conectar cuenta y quieres que no quede nada,
+<strong>borra tus datos desde la app antes de desinstalarla</strong>.
+Desinstalar por sí solo no borra la copia de la nube.</p>
+<p>Si ya la desinstalaste y te preocupa, escríbenos igualmente y te
+explicamos qué se puede hacer en tu caso.</p>
+</div>
+
+<h2>3. Qué se borra</h2>
+
+<table>
+  <tr><th>Se borra</th><th>Dónde</th></tr>
+  <tr><td>Tu perfil: nombre, cómo prefieres que te llamen, lo que contaste sobre ti, tus objetivos</td><td>Teléfono y nube</td></tr>
+  <tr><td>Todas las conversaciones</td><td>Teléfono y nube</td></tr>
+  <tr><td>Los recuerdos que la app había guardado sobre ti</td><td>Teléfono y nube</td></tr>
+  <tr><td>Las entradas del diario</td><td>Teléfono y nube</td></tr>
+  <tr><td>Los registros de ánimo</td><td>Teléfono y nube</td></tr>
+  <tr><td>Tus ajustes y el contacto de confianza</td><td>Teléfono y nube</td></tr>
+  <tr><td>El identificador con el que la app te reconocía</td><td>Nube</td></tr>
+</table>
+
+<h2>4. Qué NO se borra, y por qué</h2>
+
+<ul>
+  <li><strong>Tu suscripción Premium, si la tienes.</strong> La gestiona
+      Google Play, no nosotros, y borrar tus datos no puede quitarte algo
+      que pagaste. Para cancelarla: Play Store → tu foto → Pagos y
+      suscripciones → Suscripciones → LOA → Cancelar.</li>
+  <li><strong>Lo que ya se envió a la API de Gemini de Google</strong>
+      para generar las respuestas del acompañante. Eso queda bajo los
+      términos de Google y está explicado en la
+      <a href="privacidad.html">política de privacidad</a>.</li>
+  <li><strong>Tu cuenta de Google.</strong> LOA no puede borrarla ni
+      toca nada de ella. Si habías conectado una, simplemente deja de
+      estar asociada a LOA.</li>
+</ul>
+
+<p>No se conserva ninguna copia de seguridad de tus datos después del
+borrado, ni se guarda nada "por si acaso". No hay periodo de retención
+adicional.</p>
+
+<h2>5. Contacto</h2>
+
+<p>Para cualquier duda sobre esto:
+<a href="mailto:sospinagaviria@gmail.com">sospinagaviria@gmail.com</a></p>
+
+<h2>In English</h2>
+
+<p>You can delete everything LOA stores about you at any time:
+<strong>open LOA → Settings → Data → Delete all my data</strong>. The
+deletion is immediate and covers both the copy on your phone and the copy
+in the cloud.</p>
+
+<p>If you already uninstalled the app and had connected a Google account,
+email <a href="mailto:sospinagaviria@gmail.com">sospinagaviria@gmail.com</a>
+from that same address with the subject <em>"Delete my data"</em>.
+Everything is deleted within 30 days at most.</p>
+
+<p>Deleted: your profile, conversations, memories, journal entries, mood
+check-ins, settings and trusted contact — on the device and in the cloud.
+Not deleted: an active Premium subscription (managed by Google Play, cancel
+it there), and content already sent to Google's Gemini API, which is
+governed by Google's terms. No backups are kept and there is no additional
+retention period.</p>
+
+<footer>
+LOA · com.sospina.aicompanion ·
+<a href="privacidad.html">Política de privacidad</a>
+</footer>
+
+</main>
+</body>
+</html>
