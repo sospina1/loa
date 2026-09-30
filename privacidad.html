@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Política de privacidad — LOA</title>
+<style>
+  :root {
+    --fondo: #faf9f7;
+    --texto: #1c1b19;
+    --suave: #5c5a55;
+    --linea: #e3e0da;
+    --acento: #6b5b95;
+    --aviso-fondo: #fdf6e3;
+    --aviso-linea: #e0c97f;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fondo: #15181c;
+      --texto: #e8e6e3;
+      --suave: #a8a49d;
+      --linea: #2d3138;
+      --acento: #b4a3e0;
+      --aviso-fondo: #23201a;
+      --aviso-linea: #6b5c2e;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fondo);
+    color: var(--texto);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 16px 5rem; }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .5rem; }
+  h2 {
+    font-size: 1.2rem; margin: 2.5rem 0 .75rem;
+    padding-top: 1.5rem; border-top: 1px solid var(--linea);
+  }
+  h3 { font-size: 1rem; margin: 1.5rem 0 .5rem; }
+  .fecha { color: var(--suave); font-size: .9rem; margin: 0 0 2rem; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .4rem 0; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .95rem; }
+  th, td { text-align: left; padding: .6rem .5rem; border-bottom: 1px solid var(--linea); vertical-align: top; }
+  th { font-weight: 600; }
+  a { color: var(--acento); }
+  .aviso {
+    background: var(--aviso-fondo);
+    border: 1px solid var(--aviso-linea);
+    border-radius: 10px;
+    padding: 1rem 1.1rem;
+    margin: 1.5rem 0;
+  }
+  .aviso p:first-child { margin-top: 0; }
+  .aviso p:last-child { margin-bottom: 0; }
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--linea); color: var(--suave); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Política de privacidad de LOA</h1>
+<p class="fecha">Última actualización: 29 de septiembre de 2026</p>
+
+<p>LOA es una aplicación de acompañamiento y bienestar emocional. Esta
+política explica qué datos recoge, adónde van y cómo puedes borrarlos.
+Está escrita para que se entienda, no para cubrirnos las espaldas.</p>
+
+<div class="aviso">
+<p><strong>LOA no es un servicio médico ni psicológico.</strong> No
+diagnostica, no trata, no prescribe y no sustituye la atención de un
+profesional de la salud. Si estás en peligro o en crisis, busca ayuda
+humana: la app incluye un directorio de líneas de ayuda y un botón para
+llamar a una persona de confianza.</p>
+</div>
+
+<h2>1. Quién es responsable</h2>
+<p>El responsable del tratamiento de estos datos es
+<strong>Sebastián Ospina</strong>, desarrollador de la
+aplicación LOA (<code>com.sospina.aicompanion</code>).</p>
+<p>Contacto: <strong>sospinagaviria@gmail.com</strong></p>
+
+<h2>2. Qué datos se recogen</h2>
+
+<h3>Lo que tú escribes o eliges</h3>
+<ul>
+  <li><strong>Conversaciones</strong> con el acompañante de la app.</li>
+  <li><strong>Entradas del diario</strong> y registros de ánimo.</li>
+  <li><strong>Tu perfil</strong>: nombre o apodo, cómo prefieres que te
+      llamen, lo que cuentes sobre ti, tus objetivos y los temas que
+      sueles mencionar.</li>
+  <li><strong>Recuerdos</strong>: datos que la app va guardando sobre ti
+      a partir de las conversaciones, para no tener que empezar de cero
+      cada vez. Puedes verlos y borrarlos uno a uno desde la pantalla de
+      Memoria.</li>
+  <li><strong>Contacto de confianza</strong>: si decides añadirlo, el
+      nombre y el teléfono de otra persona, para el botón de llamada del
+      aviso de crisis. Esa persona no instaló la app: guárdala solo si
+      ella está de acuerdo.</li>
+  <li><strong>Preferencias</strong>: tema, idioma, tamaño de letra,
+      recordatorios, país para el directorio de líneas de ayuda.</li>
+</ul>
+
+<h3>Lo que se genera solo</h3>
+<ul>
+  <li><strong>Un identificador anónimo</strong> que se crea al abrir la
+      app por primera vez. No pedimos correo ni registro para usarla.</li>
+  <li><strong>Tu cuenta de Google</strong>, únicamente si eliges
+      conectarla para usar la app en más de un dispositivo. En ese caso
+      Firebase guarda tu correo y tu nombre de Google; la app no los
+      copia a ningún otro sitio.</li>
+  <li><strong>Un identificador de notificaciones</strong> (token de
+      Firebase Cloud Messaging) para poder enviarte avisos.</li>
+  <li><strong>El identificador de publicidad</strong> de tu dispositivo y
+      datos técnicos básicos, si ves anuncios. Ver la sección 4.</li>
+</ul>
+
+<h3>El micrófono</h3>
+<p>Si usas el modo de voz o dictas un mensaje, la app pide permiso de
+micrófono y usa el reconocimiento de voz de tu dispositivo Android.
+<strong>LOA no graba ni guarda audio</strong>: solo recibe el texto
+resultante. El procesamiento lo hace el servicio de reconocimiento de
+voz de tu teléfono, que en la mayoría de dispositivos es de Google y
+puede enviar el audio a sus servidores. Eso se rige por la política de
+privacidad de Google y por la configuración de tu dispositivo.</p>
+
+<h3>Lo que NO se recoge</h3>
+<ul>
+  <li>No hay analítica de uso ni seguimiento de comportamiento propio.</li>
+  <li>No hay informes de fallos que envíen datos.</li>
+  <li>No se accede a tu agenda, tu galería, tus archivos ni tu ubicación.</li>
+  <li>No se venden datos a nadie. Nunca.</li>
+</ul>
+
+<h2>3. Adónde van y con quién se comparten</h2>
+
+<p>Todos los proveedores que intervienen son de Google. No hay terceros
+más allá de los que se listan aquí.</p>
+
+<table>
+  <tr><th>Servicio</th><th>Qué recibe</th><th>Para qué</th></tr>
+  <tr>
+    <td>Firebase Authentication</td>
+    <td>Identificador anónimo; correo y nombre si conectas Google</td>
+    <td>Identificarte sin pedirte registro</td>
+  </tr>
+  <tr>
+    <td>Cloud Firestore</td>
+    <td>Perfil, conversaciones, diario, ánimo, recuerdos, ajustes y
+        contacto de confianza</td>
+    <td>Copia de seguridad y uso en varios dispositivos</td>
+  </tr>
+  <tr>
+    <td>API de Gemini</td>
+    <td>Tus mensajes, tu nombre, los recuerdos guardados y fragmentos
+        del diario</td>
+    <td>Generar las respuestas del acompañante</td>
+  </tr>
+  <tr>
+    <td>Firebase Cloud Messaging</td>
+    <td>Identificador de notificaciones</td>
+    <td>Enviarte avisos</td>
+  </tr>
+  <tr>
+    <td>Google AdMob</td>
+    <td>Identificador de publicidad y datos técnicos del dispositivo</td>
+    <td>Mostrar anuncios en la versión gratuita</td>
+  </tr>
+  <tr>
+    <td>Google Play Facturación</td>
+    <td>Tu compra, gestionada por Google</td>
+    <td>Suscripción Premium. La app no ve ni guarda datos de pago</td>
+  </tr>
+</table>
+
+<!-- ══════════════════════════════════════════════════════════════
+     ESTE BLOQUE CAMBIA al pasar a la capa de pago de la API de
+     Gemini, o al usar Firebase AI Logic.
+
+     Cuando eso ocurra, sustitúyelo por:
+
+       <p>Google no utiliza el contenido enviado a la API de Gemini
+       para mejorar sus productos, y no hay revisión humana. Google
+       conserva registros durante un tiempo limitado únicamente para
+       detectar usos indebidos.</p>
+
+     Y actualiza la fecha de "Última actualización" arriba.
+     ══════════════════════════════════════════════════════════════ -->
+<div class="aviso">
+<p><strong>Importante sobre las respuestas del acompañante.</strong>
+LOA utiliza actualmente el nivel sin costo de la API de Gemini. Según
+los términos de ese servicio, Google puede usar el contenido enviado y
+las respuestas generadas para mejorar y desarrollar sus productos, y
+revisores humanos pueden llegar a leerlo (desvinculado de la cuenta y
+de la clave de acceso).</p>
+<p>Dicho de forma directa: <strong>lo que escribas en el chat puede ser
+leído por personas de Google</strong>. Tenlo en cuenta al decidir qué
+cuentas. Está previsto cambiar a un nivel de servicio en el que ese uso
+no ocurre; cuando se haga, esta política se actualizará y la fecha de
+arriba lo reflejará.</p>
+</div>
+
+<h2>4. Publicidad</h2>
+<p>La versión gratuita muestra anuncios de Google AdMob, y un anuncio
+opcional con recompensa si quieres desbloquear una sesión o unos
+mensajes más. <strong>Nunca aparecen anuncios en el chat, durante una
+meditación o una respiración, en el modo de voz, ni mientras escribes en
+el diario.</strong></p>
+<p>Si estás en el Espacio Económico Europeo o el Reino Unido, la app te
+pide consentimiento antes de mostrarte publicidad personalizada, y
+puedes cambiar de opinión en cualquier momento desde
+<em>Ajustes → Datos → Privacidad de los anuncios</em>.</p>
+<p>Con la suscripción Premium no se muestra ningún anuncio.</p>
+
+<h2>5. Cuánto tiempo se guardan y cómo borrarlos</h2>
+<p>Los datos se conservan mientras uses la app. No hay borrado
+automático por inactividad.</p>
+<p>Puedes borrar:</p>
+<ul>
+  <li><strong>Un recuerdo</strong>, desde la pantalla de Memoria.</li>
+  <li><strong>Una conversación</strong>, desde el historial.</li>
+  <li><strong>Todo</strong>, desde <em>Ajustes → Datos → Borrar todos mis
+      datos</em>. Esto elimina lo guardado en el teléfono y lo guardado
+      en la nube bajo tu identificador. No se puede deshacer.</li>
+</ul>
+<p>El borrado completo no cancela una suscripción activa: eso se hace
+desde Google Play. Tampoco borra lo que ya haya sido enviado a la API de
+Gemini, que se rige por los términos de Google descritos arriba.</p>
+
+<h2>6. Seguridad</h2>
+<p>La comunicación con todos los servicios va cifrada (HTTPS). En la
+nube, las reglas de seguridad de Firestore impiden que el contenido de
+una persona sea accesible para otra: cada quien solo puede leer y
+escribir en su propio espacio.</p>
+<p>Ningún sistema es infalible, y esta política no promete lo contrario.</p>
+
+<h2>7. Edad mínima</h2>
+<p>LOA es para <strong>mayores de 18 años</strong>. La tecnología de
+inteligencia artificial que utiliza tiene esa restricción de edad en sus
+condiciones de uso, y además esta app trata temas que requieren criterio
+adulto. Si eres menor de 18 años, no la uses.</p>
+
+<h2>8. Tus derechos</h2>
+<p>Puedes acceder a tus datos desde la propia app, corregirlos,
+borrarlos y dejar de usar el servicio cuando quieras, sin dar
+explicaciones. Si vives en un país con normativa específica de
+protección de datos —como el RGPD europeo o la Ley 1581 de 2012 en
+Colombia— puedes ejercer tus derechos escribiendo a la dirección de
+contacto de la sección 1.</p>
+
+<h2>9. Cambios en esta política</h2>
+<p>Si algo cambia de forma relevante, se actualizará esta página y la
+fecha del encabezado. Los cambios importantes también se avisarán dentro
+de la app.</p>
+
+<h2>10. Contacto</h2>
+<p>Para cualquier duda sobre privacidad o para ejercer tus derechos:
+<strong>sospinagaviria@gmail.com</strong></p>
+
+<footer>
+LOA · com.sospina.aicompanion
+</footer>
+
+</main>
+</body>
+</html>
