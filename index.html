@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LOA</title>
+<style>
+  :root {
+    --fondo: #faf9f7;
+    --texto: #1c1b19;
+    --suave: #5c5a55;
+    --linea: #e3e0da;
+    --acento: #6b5b95;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fondo: #15181c;
+      --texto: #e8e6e3;
+      --suave: #a8a49d;
+      --linea: #2d3138;
+      --acento: #b4a3e0;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--fondo);
+    color: var(--texto);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 32rem; padding: 3rem 16px; }
+  h1 { font-size: 2.4rem; margin: 0 0 .25rem; letter-spacing: -0.02em; }
+  .lema { color: var(--suave); margin: 0 0 2.5rem; }
+  h2 {
+    font-size: .8rem; text-transform: uppercase; letter-spacing: .08em;
+    color: var(--suave); margin: 0 0 .75rem; font-weight: 600;
+  }
+  ul { list-style: none; padding: 0; margin: 0; }
+  li { border-top: 1px solid var(--linea); }
+  li:last-child { border-bottom: 1px solid var(--linea); }
+  a { color: var(--acento); text-decoration: none; display: block; padding: .8rem 0; }
+  a:hover { text-decoration: underline; }
+  footer { margin-top: 2.5rem; color: var(--suave); font-size: .85rem; }
+  footer a { display: inline; padding: 0; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>LOA</h1>
+<p class="lema">Un espacio para hablar de lo que te pasa, cuando te pasa.</p>
+
+<h2>Documentos</h2>
+<ul>
+  <li><a href="privacidad.html">Política de privacidad</a></li>
+  <li><a href="privacy.html">Privacy Policy (English)</a></li>
+</ul>
+
+<footer>
+  LOA no es un servicio médico ni psicológico. No diagnostica, no receta
+  y no sustituye a un profesional.<br><br>
+  Contacto: <a href="mailto:sospinagaviria@gmail.com">sospinagaviria@gmail.com</a>
+</footer>
+
+</main>
+</body>
+</html>
